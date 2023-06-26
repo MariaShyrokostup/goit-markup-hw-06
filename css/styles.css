@@ -315,7 +315,6 @@ img {
 .footer-container {
   display: flex;
   flex-direction: column;
-  /* align-items: baseline; */
   margin: 0 auto;
   flex-wrap: wrap;
   row-gap: 72px;
@@ -328,10 +327,6 @@ img {
 .footer-logo {
   color: var(--light-blue-background);
 }
-
-/* .footer-logo-section {
-  margin-right: 120px;
-} */
 .footer-text {
   max-width: 264px;
   line-height: 1.5;
@@ -340,7 +335,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 .logo-ftr {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -353,7 +347,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 .footer-soc-header {
   font-weight: 500;
   line-height: 1.5;
@@ -382,16 +375,9 @@ img {
   transition: background-color var(--transition);
   color: var(--light-blue-background);
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--light-green-background);
-}
 .soc-icon {
   fill: currentColor;
 }
-/* .footer-subscribe {
-  margin-left: auto;
-} */
 .footer-subscribe-text {
   font-weight: 500;
   line-height: 1.5;
@@ -405,8 +391,6 @@ img {
   flex-direction: column;
   gap: 16px;
   justify-content: center;
-  /* align-items: center; */
-  /* gap: 24px; */
 }
 .footer-email-label {
   width: 100%;
@@ -456,22 +440,12 @@ img {
 .icon-telegram {
   fill: var(--main-white);
   margin-left: 16px;
-
+}
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: var(--focus-color);
 }
 /* 
-
-
-
-
-
-
-
-
-
-
 
 .portfolio {
   display: flex;
@@ -918,7 +892,7 @@ img {
     width: 264px;
   }
   .footer-form {
-  gap: 24px;
+    gap: 24px;
   }
 }
 
@@ -1046,15 +1020,35 @@ img {
   }
   .footer-container {
     flex-direction: row;
+    align-items: baseline;
+  }
+  .footer-logo-section {
+    margin-right: 120px;
+  }
+  .logo-ftr {
+    margin-left: 0;
+  }
+  .footer-text {
+    margin-right: 0;
+  }
+  .footer-soc-header {
+    text-align: left;
   }
   .footer-form {
-  align-items: center; 
-  gap: 24px;
+    align-items: center;
+    gap: 24px;
+  }
+  .footer-subscribe {
+    margin-left: auto;
+  }
+  .footer-soc-link:hover,
+  .footer-soc-link:focus {
+    background-color: var(--light-green-background);
   }
   .subscribe-button:hover,
-.subscribe-button:focus {
-  background-color: var(--focus-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+  .subscribe-button:focus {
+    background-color: var(--focus-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
