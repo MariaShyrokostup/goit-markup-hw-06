@@ -144,7 +144,7 @@ img {
   padding: 0;
   top: 24px;
   right: 24px;
- }
+}
 .mob-list-item {
   padding-bottom: 40px;
 }
@@ -914,6 +914,9 @@ img {
     max-width: unset;
     width: calc((100% - 24px) / 2);
   }
+  .main-section-subheader {
+    text-align: left;
+  }
   /* ------TEAM-------- */
   .team-list {
     gap: 64px 24px;
@@ -939,8 +942,14 @@ img {
     flex-direction: row;
     align-items: baseline;
   }
+  .logo-ftr {
+    margin-left: 0;
+  }
   .footer-text {
     margin-right: 24px;
+  }
+  .footer-soc-header {
+    text-align: left;
   }
   .footer-subscribe-text {
     text-align: left;
@@ -1085,9 +1094,6 @@ img {
   }
   .footer-logo-section {
     margin-right: 120px;
-  }
-  .logo-ftr {
-    margin-left: 0;
   }
   .footer-text {
     margin-right: 0;
